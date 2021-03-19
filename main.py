@@ -1,6 +1,6 @@
 PI = 3.14
 
-def calculAir(rayon):
+def calculSurface(rayon):
     return 3.14 * rayon * rayon
 
 def calculVolume(r):
