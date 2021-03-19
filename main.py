@@ -1,7 +1,7 @@
 PI = 3.14
 
-def calculSurface(r):
-    return 3.14 * r * r
+def calculSurface(rayon):
+    return 3.14 * rayon * rayon
 
 def calculVolume(r):
     return 4 * calculSurface(r) * r / 3
