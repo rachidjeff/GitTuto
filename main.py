@@ -1,5 +1,5 @@
-def calculAir(rayon):
-    return 3.14 * rayon * rayon
+def calculSurface(r):
+    return 3.14 * r * r
 
 def calculVolume(rayon):
-    return 4 * rayon * rayon * rayon / 3
+    return 4 * calculSurface(r) * r / 3
